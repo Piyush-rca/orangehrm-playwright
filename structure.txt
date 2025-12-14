@@ -1,0 +1,140 @@
+Folder PATH listing for volume OS
+Volume serial number is 6E11-DBA9
+C:.
+¦   .classpath
+¦   .gitignore
+¦   .project
+¦   pom.xml
+¦   structure.txt
+¦   
++---.settings
+¦       org.eclipse.core.resources.prefs
+¦       org.eclipse.jdt.core.prefs
+¦       org.eclipse.m2e.core.prefs
+¦       
++---build
+¦       Orane HRM test.html
+¦       
++---screenshot
+¦       1765625459263.png
+¦       1765625602699.png
+¦       
++---src
+¦   +---main
+¦   ¦   +---java
+¦   ¦       +---com
+¦   ¦           +---qa
+¦   ¦               +---orangeHRM
+¦   ¦                   +---constants
+¦   ¦                   ¦       AppConstans.java
+¦   ¦                   ¦       
+¦   ¦                   +---factory
+¦   ¦                   ¦       PlaywrightFactory.java
+¦   ¦                   ¦       
+¦   ¦                   +---listeners
+¦   ¦                   ¦       ExtentReportListener.java
+¦   ¦                   ¦       
+¦   ¦                   +---pages
+¦   ¦                           DashboardPage.java
+¦   ¦                           loginPage.java
+¦   ¦                           
+¦   +---test
+¦       +---java
+¦       ¦   +---com
+¦       ¦       +---qa
+¦       ¦           +---orangeHRM
+¦       ¦               +---base
+¦       ¦               ¦       Basetest.java
+¦       ¦               ¦       
+¦       ¦               +---tests
+¦       ¦                       DashboardPageTest.java
+¦       ¦                       LoginPageTest.java
+¦       ¦                       
+¦       +---resource
+¦           +---config
+¦           ¦       config.properties
+¦           ¦       
+¦           +---testrunner
+¦                   testing.xml
+¦                   
++---target
+¦   +---classes
+¦   ¦   +---com
+¦   ¦   ¦   +---qa
+¦   ¦   ¦       +---orangeHRM
+¦   ¦   ¦           +---constants
+¦   ¦   ¦           ¦       AppConstans.class
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---factory
+¦   ¦   ¦           ¦       PlaywrightFactory.class
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---listeners
+¦   ¦   ¦           ¦       ExtentReportListener.class
+¦   ¦   ¦           ¦       
+¦   ¦   ¦           +---pages
+¦   ¦   ¦                   DashboardPage.class
+¦   ¦   ¦                   loginPage.class
+¦   ¦   ¦                   
+¦   ¦   +---config
+¦   ¦   ¦       config.properties
+¦   ¦   ¦       
+¦   ¦   +---META-INF
+¦   ¦   ¦   ¦   MANIFEST.MF
+¦   ¦   ¦   ¦   
+¦   ¦   ¦   +---maven
+¦   ¦   ¦       +---playwrightPOM
+¦   ¦   ¦           +---playwrightPOM
+¦   ¦   ¦                   pom.properties
+¦   ¦   ¦                   pom.xml
+¦   ¦   ¦                   
+¦   ¦   +---testrunner
+¦   ¦           testing.xml
+¦   ¦           
+¦   +---generated-sources
+¦   ¦   +---annotations
+¦   +---maven-status
+¦   ¦   +---maven-compiler-plugin
+¦   ¦       +---compile
+¦   ¦           +---default-compile
+¦   ¦                   inputFiles.lst
+¦   ¦                   
+¦   +---test-classes
+¦       +---com
+¦           +---qa
+¦               +---orangeHRM
+¦                   +---base
+¦                   ¦       Basetest.class
+¦                   ¦       
+¦                   +---tests
+¦                           DashboardPageTest.class
+¦                           LoginPageTest.class
+¦                           
++---test-output
+    ¦   bullet_point.png
+    ¦   collapseall.gif
+    ¦   emailable-report.html
+    ¦   failed.png
+    ¦   index.html
+    ¦   jquery-3.6.0.min.js
+    ¦   navigator-bullet.png
+    ¦   passed.png
+    ¦   skipped.png
+    ¦   testng-failed.xml
+    ¦   testng-reports.css
+    ¦   testng-reports.js
+    ¦   testng-reports1.css
+    ¦   testng-reports2.js
+    ¦   testng-results.xml
+    ¦   
+    +---Default suite
+    ¦       Default test.html
+    ¦       Default test.xml
+    ¦       testng-failed.xml
+    ¦       
+    +---junitreports
+    ¦       TEST-com.qa.orangeHRM.tests.LoginPageTest.xml
+    ¦       
+    +---OrangeHRMTestSuit
+            Orange HRM Test.html
+            Orange HRM Test.xml
+            
