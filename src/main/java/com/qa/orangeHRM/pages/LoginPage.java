@@ -49,6 +49,7 @@ public class LoginPage {
     // Empty credentials → returns true if "Required" error shown
     public boolean isRequiredFieldErrorDisplayed() {
         page.click(login);
+		page.waitForSelector(requiredFieldError);
         return page.isVisible(requiredFieldError);
     }
 
