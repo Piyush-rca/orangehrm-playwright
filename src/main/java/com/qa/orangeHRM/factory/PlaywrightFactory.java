@@ -44,14 +44,14 @@ public class PlaywrightFactory {
 	public Page initBrowser(Properties prop) {
 		String browserName = prop.getProperty("browser").trim();
 		System.out.println("Browser name is: " + browserName);
-		boolean headmode = Boolean.parseBoolean(prop.getProperty("headless"));
+		//boolean headmode = Boolean.parseBoolean(prop.getProperty("headless"));
 		
 		
 		
 		tlPlaywright.set(Playwright.create());
 		
 		BrowserType.LaunchOptions launchOptions = new BrowserType.LaunchOptions()
-                .setHeadless(headmode);
+                .setHeadless(true);
 		
 		switch (browserName.toLowerCase()) {
 		case "chromium":
@@ -71,7 +71,7 @@ public class PlaywrightFactory {
                     getPlaywright().chromium()
                             .launch(new BrowserType.LaunchOptions()
                                     .setChannel("chrome")
-                                    .setHeadless(headmode)));
+                                    .setHeadless(true)));
 			break;
 			
 			
